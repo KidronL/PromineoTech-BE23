@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class codeExample_week3{
+
+    public static void main(String[] args) {
+
+        Scanner scanner= new Scanner(System.in);
+
+        System.out.print("What is your name? ");
+        String name = scanner.nextLine();
+
+        System.out.print("Pick a number between 1 - 10: ");
+        int num = scanner.nextLine();
+
+        if (num == 7) {
+            System.out.println(name + " " + "You are correct!")
+        } else {   
+            System.out.println(name + " " + "You are incorrect.")
+        }
+
+    }
+}
